@@ -18,6 +18,7 @@ We look for vulnerabilities in widely used open-source software, report them pri
 
 | CVE | Project | Severity | Write-up |
 |---|---|---|---|
+| CVE-2026-110720 | HashiCorp consul-k8s | Critical | [A ServiceAccount name was enough to become Consul admin](https://brickell-tech.com/blog/consul-k8s-cross-namespace-acl-bypass-cve-2026-110720) |
 | CVE-2026-114615 | Authlib | High | [Off by one newline: how Authlib's JWT algorithm confusion came back](https://brickell-tech.com/blog/authlib-algorithm-confusion-incomplete-fix-cve-2026-114615) |
 | CVE-2026-105937 | Apache Pulsar | High | [Reading another tenant's messages through an Apache Pulsar shadow topic](https://brickell-tech.com/blog/apache-pulsar-shadow-topic-cross-tenant-cve-2026-105937) |
 | CVE-2026-112947 | Vite | Medium | [Reading past Vite's server.fs boundary through a WebAssembly error](https://brickell-tech.com/blog/vite-wasm-instance-fs-bypass-cve-2026-112947) |
