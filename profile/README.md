@@ -19,16 +19,16 @@ We look for vulnerabilities in widely used open-source software, report them pri
 | CVE | Project | Severity | Write-up |
 |---|---|---|---|
 | CVE-2026-91182 | Open Cluster Management | Low | [OCM's gRPC broker authorized one cluster and wrote to another](https://brickell-tech.com/blog/open-cluster-management-grpc-broker-cve-2026-91182) |
-| GHSA-cwq8-r97g-9cvh, GHSA-43xx-6crf-23mc, GHSA-hqq3-8w38-vh5v (CVEs pending) | SuperTokens | High | [Ending a URL in /api/signout made any SuperTokens dashboard user an admin](https://brickell-tech.com/blog/supertokens-dashboard-admins-query-string-bypass) |
+| GHSA-cwq8-r97g-9cvh, GHSA-43xx-6crf-23mc, GHSA-hqq3-8w38-vh5v (CVEs pending) | SuperTokens | High | [SuperTokens dashboard admins restriction bypassed with a query string](https://brickell-tech.com/blog/supertokens-dashboard-admins-query-string-bypass) |
 | CVE-2026-110720 | HashiCorp consul-k8s | Critical | [A ServiceAccount name was enough to become Consul admin](https://brickell-tech.com/blog/consul-k8s-cross-namespace-acl-bypass-cve-2026-110720) |
 | FZ-2026-008 (no CVE) | Firezone | Not scored | [Firezone Gateways trusted the proxy IPs Clients sent them](https://brickell-tech.com/blog/firezone-gateway-proxy-ip-bypass-fz-2026-008) |
-| CVE-2026-114615 | Authlib | High | [Off by one newline: how Authlib's JWT algorithm confusion came back](https://brickell-tech.com/blog/authlib-algorithm-confusion-incomplete-fix-cve-2026-114615) |
+| CVE-2026-114615 | Authlib | High | [A leading newline bypassed Authlib's JWT algorithm confusion fix](https://brickell-tech.com/blog/authlib-algorithm-confusion-incomplete-fix-cve-2026-114615) |
 | CVE-2026-105937 | Apache Pulsar | High | [Reading another tenant's messages through an Apache Pulsar shadow topic](https://brickell-tech.com/blog/apache-pulsar-shadow-topic-cross-tenant-cve-2026-105937) |
 | CVE-2026-112947 | Vite | Medium | [Reading past Vite's server.fs boundary through a WebAssembly error](https://brickell-tech.com/blog/vite-wasm-instance-fs-bypass-cve-2026-112947) |
 | CVE-2026-110779, CVE-2026-110780 | Netatalk | Medium | [Two memory-safety bugs in Netatalk's Spotlight RPC](https://brickell-tech.com/blog/netatalk-spotlight-cve-2026-110779-cve-2026-110780) |
 | CVE-2026-96615 | NGINX Gateway Fabric | High | [Cross-namespace agent impersonation in NGINX Gateway Fabric](https://brickell-tech.com/blog/nginx-gateway-fabric-agent-impersonation-cve-2026-96615) |
-| CVE-2026-85184 | @fastify/middie | Critical | [When your router and your middleware read different URLs](https://brickell-tech.com/blog/fastify-middie-auth-bypass-cve-2026-85184) |
-| CVE-2026-41992 | GNU gzip | Medium | [The gzip patch that fixed the crash and left the bug](https://brickell-tech.com/blog/gzip-incomplete-patch-cve-2026-41992) |
+| CVE-2026-85184 | @fastify/middie | Critical | [@fastify/middie auth bypass with absolute-form requests](https://brickell-tech.com/blog/fastify-middie-auth-bypass-cve-2026-85184) |
+| CVE-2026-41992 | GNU gzip | Medium | [Incomplete fix in gzip's LZH decoder](https://brickell-tech.com/blog/gzip-incomplete-patch-cve-2026-41992) |
 
 We also write for the people buying security work:
 
