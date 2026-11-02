@@ -18,6 +18,7 @@ We look for vulnerabilities in widely used open-source software, report them pri
 
 | CVE | Project | Severity | Write-up |
 |---|---|---|---|
+| GHSA-cwq8-r97g-9cvh, GHSA-43xx-6crf-23mc, GHSA-hqq3-8w38-vh5v (CVEs pending) | SuperTokens | High | [Ending a URL in /api/signout made any SuperTokens dashboard user an admin](https://brickell-tech.com/blog/supertokens-dashboard-admins-query-string-bypass) |
 | CVE-2026-110720 | HashiCorp consul-k8s | Critical | [A ServiceAccount name was enough to become Consul admin](https://brickell-tech.com/blog/consul-k8s-cross-namespace-acl-bypass-cve-2026-110720) |
 | FZ-2026-008 (no CVE) | Firezone | Not scored | [Firezone Gateways trusted the proxy IPs Clients sent them](https://brickell-tech.com/blog/firezone-gateway-proxy-ip-bypass-fz-2026-008) |
 | CVE-2026-114615 | Authlib | High | [Off by one newline: how Authlib's JWT algorithm confusion came back](https://brickell-tech.com/blog/authlib-algorithm-confusion-incomplete-fix-cve-2026-114615) |
