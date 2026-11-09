@@ -18,6 +18,7 @@ We look for vulnerabilities in widely used open-source software, report them pri
 
 | CVE | Project | Severity | Write-up |
 |---|---|---|---|
+| CVE-2026-123802 | SuperTokens | High | [SuperTokens SAML accepted assertions issued to other service providers](https://brickell-tech.com/blog/supertokens-saml-audience-bypass-cve-2026-123802) |
 | CVE-2026-91182 | Open Cluster Management | Low | [OCM's gRPC broker authorized one cluster and wrote to another](https://brickell-tech.com/blog/open-cluster-management-grpc-broker-cve-2026-91182) |
 | GHSA-cwq8-r97g-9cvh, GHSA-43xx-6crf-23mc, GHSA-hqq3-8w38-vh5v (CVEs pending) | SuperTokens | High | [SuperTokens dashboard admins restriction bypassed with a query string](https://brickell-tech.com/blog/supertokens-dashboard-admins-query-string-bypass) |
 | CVE-2026-110720 | HashiCorp consul-k8s | Critical | [A ServiceAccount name was enough to become Consul admin](https://brickell-tech.com/blog/consul-k8s-cross-namespace-acl-bypass-cve-2026-110720) |
