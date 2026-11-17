@@ -37,6 +37,10 @@ We also write for the people buying security work:
 - [Does SOC 2 require a penetration test?](https://brickell-tech.com/blog/does-soc-2-require-a-penetration-test)
 - [How much does a penetration test cost?](https://brickell-tech.com/blog/how-much-does-a-penetration-test-cost)
 
+We cover security news too:
+
+- [Under three hours: ARTEX and the past month in security](https://brickell-tech.com/blog/artex-ai-attack-framework-fbi-warning-november-2026)
+
 Everything we publish is on the [Brickell Technologies blog](https://brickell-tech.com/blog).
 
 ### Certifications
