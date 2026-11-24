@@ -18,6 +18,10 @@ We look for vulnerabilities in widely used open-source software, report them pri
 
 | CVE | Project | Severity | Write-up |
 |---|---|---|---|
+| GHSA-rcxf-p9vr-pqpq (no CVE yet) | Liqo | Critical | [Plus one: extra Kubernetes groups in Liqo peering certificates](https://brickell-tech.com/blog/liqo-csr-extra-groups-ghsa-rcxf-p9vr-pqpq) |
+| GHSA-w92q-9g55-f4r2 (no CVE yet) | Pangolin | High | [Double booked: two Pangolin organizations, one hostname](https://brickell-tech.com/blog/pangolin-cross-org-hostname-collision-ghsa-w92q-9g55-f4r2) |
+| GHSA-f9fr-gp36-h528 (no CVE yet) | Kestra | High | [Prefix not found: pre-auth RCE in Kestra behind a context path](https://brickell-tech.com/blog/kestra-context-path-auth-bypass-ghsa-f9fr-gp36-h528) |
+| GHSA-vcqg-wx36-5j6j (no CVE yet) | openHAB | Medium | [One parser out of eleven: unauthenticated XXE in openHAB's Sonos binding](https://brickell-tech.com/blog/openhab-sonos-binding-xxe-ghsa-vcqg-wx36-5j6j) |
 | GHSA-7j23-rprg-3g5q (CVE pending) | Immich | High | [Bring your own state: Immich OAuth account takeover](https://brickell-tech.com/blog/immich-oauth-state-cookie-account-takeover-ghsa-7j23-rprg-3g5q) |
 | CVE-2026-123802 | SuperTokens | High | [SuperTokens SAML accepted assertions issued to other service providers](https://brickell-tech.com/blog/supertokens-saml-audience-bypass-cve-2026-123802) |
 | CVE-2026-91182 | Open Cluster Management | Low | [OCM's gRPC broker authorized one cluster and wrote to another](https://brickell-tech.com/blog/open-cluster-management-grpc-broker-cve-2026-91182) |
