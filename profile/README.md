@@ -36,6 +36,8 @@ We look for vulnerabilities in widely used open-source software, report them pri
 | CVE-2026-85184 | @fastify/middie | Critical | [@fastify/middie auth bypass with absolute-form requests](https://brickell-tech.com/blog/fastify-middie-auth-bypass-cve-2026-85184) |
 | CVE-2026-41992 | GNU gzip | Medium | [Incomplete fix in gzip's LZH decoder](https://brickell-tech.com/blog/gzip-incomplete-patch-cve-2026-41992) |
 
+We don't charge open-source projects for this work. The table, with how long each project took to ship its fix, is in [What we owe open source, and the 16 projects that fixed what we found](https://brickell-tech.com/blog/thank-you-open-source-maintainers-2026).
+
 We also write for the people buying security work:
 
 - [Does SOC 2 require a penetration test?](https://brickell-tech.com/blog/does-soc-2-require-a-penetration-test)
